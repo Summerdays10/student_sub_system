@@ -1,0 +1,176 @@
+
+|        . .*o.+o*|
+|    .  .... == ++|
+|   o + +S.  ..= .|
+|..o + E .      . |
+|o..o .           |
+|... .            |
+|..               |
++----[SHA256]-----+
+
+0007165468088@RDS MINGW64 ~/Desktop
+$ git clone git@github.com:Summerdays10/student_sub_system.git
+Cloning into 'student_sub_system'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+0007165468088@RDS MINGW64 ~/Desktop
+$ git clone git@github.com:Summerdays10/student_sub_system.git
+Cloning into 'student_sub_system'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 7 (from 1)
+Receiving objects: 100% (9/9), 4.82 KiB | 379.00 KiB/s, done.
+
+0007165468088@RDS MINGW64 ~/Desktop
+$ cd git@github.com:Summerdays10/student_sub_system.git
+bash: cd: git@github.com:Summerdays10/student_sub_system.git: No such file or directory
+
+0007165468088@RDS MINGW64 ~/Desktop
+$ cd Summerdays10/student_sub_system.git
+bash: cd: Summerdays10/student_sub_system.git: No such file or directory
+
+0007165468088@RDS MINGW64 ~/Desktop
+$ mkdir myP
+
+0007165468088@RDS MINGW64 ~/Desktop
+$ cd myP
+
+0007165468088@RDS MINGW64 ~/Desktop/myP
+$ touch muP
+
+0007165468088@RDS MINGW64 ~/Desktop/myP
+$ touch student_sub_system
+
+0007165468088@RDS MINGW64 ~/Desktop/myP
+$ cd
+
+0007165468088@RDS MINGW64 ~
+$ cd desktop
+
+0007165468088@RDS MINGW64 ~/desktop
+$ touch studen_sub_system
+
+0007165468088@RDS MINGW64 ~/desktop
+$ touch student_sub_system
+
+0007165468088@RDS MINGW64 ~/desktop
+$ pwd myP
+/c/Users/0007165468088/desktop
+
+0007165468088@RDS MINGW64 ~/desktop
+$ touch /c/Users/0007165468088/Desktop/student_sub_system
+
+0007165468088@RDS MINGW64 ~/desktop
+$ cd student_sub_system
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch index.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch about.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ history.txt
+bash: history.txt: command not found
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch history.txt
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ ls
+Learner_details.md  README.md  about.html  history.txt  index.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        about.html
+        history.txt
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git add  about.html
+        history.txt
+        index.html
+
+bash: history.txt: command not found
+bash: index.html: command not found
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git add about.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git add history.txt
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git add index.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git commit -m "about.html"
+[main 525b9b8] about.html
+ Committer: Karrel esterhuizen <0007165468088@tpc.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 about.html
+ create mode 100644 history.txt
+ create mode 100644 index.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch index.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ cd index.html
+bash: cd: index.html: Not a directory
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ cd student_sub_system
+bash: cd: student_sub_system: No such file or directory
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch student_sub_system
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch history.txt
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch index.txt
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch about.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ touch index.html
+
+0007165468088@RDS MINGW64 ~/desktop/student_sub_system (main)
+$ git commt -m "index.html about.html
+> git commit - "history.txt"
+>
+> cd
+> cd
